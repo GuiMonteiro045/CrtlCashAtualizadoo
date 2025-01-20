@@ -56,7 +56,8 @@ async function consultarMoedas() {
     const listaItens = document.getElementById("lista-itens");
 
     resultado.textContent = "Consultando...";
-    itensDisponiveis.style.display = "none";
+
+    itensDisponiveis.style.display = "none";  // Esconde a lista de itens inicialmente
 
     const alunos = await obterDadosDaPlanilha();
 
