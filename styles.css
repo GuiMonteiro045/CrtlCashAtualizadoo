@@ -62,3 +62,16 @@ button:hover {
     margin-top: 20px;
     background-color: #2A75BB; /* Azul */
 }
+
+#itens-disponiveis {
+    margin-top: 30px;
+}
+
+#itens-disponiveis ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#itens-disponiveis li {
+    margin: 10px 0;
+}
